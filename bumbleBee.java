@@ -9,11 +9,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class bumbleBee extends Actor
 {
-    GreenfootSound bumbleSound = new GreenfootSound("cheers -Greenfoot.mp3");
-    
+    GreenfootSound bumbleSound = new GreenfootSound("greenFootCheers.mp3");
+        
     /**
-     * Act - do whatever the bumbleBee wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Contructor --> code runs once when object is created
      */
     public void act()
     {
