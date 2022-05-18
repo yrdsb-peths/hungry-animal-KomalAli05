@@ -10,7 +10,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class bumbleBee extends Actor
 {
     GreenfootSound bumbleSound = new GreenfootSound("greenFootCheers.mp3");
-        
+    GreenfootImage idle = new GreenfootImage("images/idle1.png"); 
+    
     /**
      * Contructor --> code runs once when object is created
      */
