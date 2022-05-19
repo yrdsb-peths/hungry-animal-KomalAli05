@@ -7,14 +7,18 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @Komal (your name) 
  * @May 2022 (a version number or a date)
  */
-public class bumbleBee extends Actor
+public class BumbleBee extends Actor
 {
-    GreenfootSound bumbleSound = new GreenfootSound("greenFootCheers.mp3");
-    GreenfootImage idle = new GreenfootImage("images/idle1.png"); 
+    GreenfootSound bumbleSound = new GreenfootSound("sounds/greenFootCheers.mp3");
+    
     
     /**
      * Contructor --> code runs once when object is created
      */
+    public BumbleBee(){
+        GreenfootImage idle = new GreenfootImage("images/idle1.png");
+    }
+    
     public void act()
     {
         if(Greenfoot.isKeyDown("left"))

@@ -1,14 +1,14 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * The world where Bumblebee go zoom 
+ * Write a description of class GameWorld here.
  * 
- * @Komal (your name) 
- * @May 2022 (a version number or a date)
+ * @author (your name) 
+ * @version (a version number or a date)
  */
 public class MyWorld extends World
 {
-    public int startScore = 0;
+    int startScore = 0;
     Label score;  
     /**
      * Constructor for objects of class MyWorld.
@@ -18,18 +18,17 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1, false); 
-        prepare();
-        
+
         //create bumble object
-        bumbleBee bumble = new bumbleBee();
+        BumbleBee bumble = new BumbleBee();
         addObject(bumble, 300, 300);
-        
+
         //create label to keep track of amnt of pumpkins eaten
         score = new Label(0, 100);
         addObject(score, 50, 50);
         createPumpkin();
     }
-    
+
     /**
      * Finish the game and put up "Game Over" on screen when
      * pumpkin touches ground
@@ -39,7 +38,7 @@ public class MyWorld extends World
         Label gameOver = new Label("Game Over!", 100);
         addObject(gameOver, 300, 200);
     }
-    
+
     /**
      * increase score when pumpkin eaten 
      */
@@ -48,21 +47,15 @@ public class MyWorld extends World
         startScore++;
         score.setValue(startScore);
     }
+
     /**
-    *creates a new pumpkin at top of screen after bumble eats
-    */
+     *creates a new pumpkin at top of screen after bumble eats
+     */
     public void createPumpkin()
     {
         Pumpkin pumpkin = new Pumpkin();
         int x = Greenfoot.getRandomNumber(600);
         int y = 0; //this means a random (x,y) coordinate
         addObject(pumpkin, x, y);
-    }
-    /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
-     */
-    private void prepare()
-    {
     }
 }
