@@ -15,7 +15,8 @@ public class BumbleBee extends Actor
     /**
      * Contructor --> code runs once when object is created
      */
-    public BumbleBee(){
+    public BumbleBee()
+    {
         GreenfootImage idle = new GreenfootImage("images/idle1.png");
     }
     
