@@ -9,7 +9,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class MyWorld extends World
 {
     int startScore = 0;
-    Label score;  
+    Label score; 
+    int level = 1;
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -46,6 +47,11 @@ public class MyWorld extends World
     {
         startScore++;
         score.setValue(startScore);
+        
+        if(startScore % 7 == 0)
+        {
+            level += 1;
+        }
     }
 
     /**
@@ -54,6 +60,7 @@ public class MyWorld extends World
     public void createPumpkin()
     {
         Pumpkin pumpkin = new Pumpkin();
+        pumpkin.setSpeed(level);
         int x = Greenfoot.getRandomNumber(600);
         int y = 0; //this means a random (x,y) coordinate
         addObject(pumpkin, x, y);

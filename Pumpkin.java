@@ -8,13 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Pumpkin extends Actor
 {
-    /**
-     * Act - do whatever the Pumpkin wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    int speed = 1;
+    
     public void act()
     {
-        // Add your action code here.
+        // Pumpkin falls 
         int x = getX();
         int y = getY() + 2;
         setLocation(x, y);
@@ -27,5 +25,10 @@ public class Pumpkin extends Actor
             world.gameOver();
             world.removeObject(this);
         }
+    }
+    
+    public void setSpeed(int speed)
+    {
+        
     }
 }

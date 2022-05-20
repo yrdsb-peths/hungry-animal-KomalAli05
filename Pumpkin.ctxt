@@ -1,7 +1,8 @@
 #BlueJ class context
 comment0.target=Pumpkin
-comment0.text=\n\ Pumpkin\ for\ bumble\ \n\ \n\ @Komal\ (your\ name)\ \n\ @May\ 2022\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Pumpkin\ for\ bumble\ \r\n\ \r\n\ @Komal\ (your\ name)\ \r\n\ @May\ 2022\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Pumpkin\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-numComments=2
+comment2.params=speed
+comment2.target=void\ setSpeed(int)
+numComments=3
