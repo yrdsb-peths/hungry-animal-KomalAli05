@@ -14,7 +14,7 @@ public class Pumpkin extends Actor
     {
         // Pumpkin falls 
         int x = getX();
-        int y = getY() + 2;
+        int y = getY() + speed;
         setLocation(x, y);
         
         //Get rid of apple when it's on the bottom and put "Game Over!" on screen
@@ -29,6 +29,6 @@ public class Pumpkin extends Actor
     
     public void setSpeed(int speed)
     {
-        
+        this.speed = speed;
     }
 }
