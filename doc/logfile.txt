@@ -1,8 +1,15 @@
-Project documentation
+Class documentation
 <---- javadoc command: ---->
 C:\Program Files\Greenfoot\jdk\bin\javadoc.exe
--sourcepath
-C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05
+-author
+-version
+-nodeprecated
+-protected
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
 -source
 11
 -classpath
@@ -13,36 +20,21 @@ C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\doc
 UTF-8
 -charset
 UTF-8
--doctitle
-hungry-animal-KomalAli05
--windowtitle
-hungry-animal-KomalAli05
--author
--version
--nodeprecated
--protected
--Xdoclint:none
--link
-https://docs.oracle.com/en/java/javase/11/docs/api/
-C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05/BumbleBee.java
-C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05/Pumpkin.java
-C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05/Label.java
-C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05/MyWorld.java
+C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\Pumpkin.java
 <---- end of javadoc command ---->
-Loading source file C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\BumbleBee.java...
 Loading source file C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\Pumpkin.java...
-Loading source file C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\Label.java...
-Loading source file C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\MyWorld.java...
 Constructing Javadoc information...
-C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\BumbleBee.java:18: error: cannot find symbol
-    SimpleTimer animationTimer = new SimpleTimer();
-    ^
-  symbol:   class SimpleTimer
-  location: class BumbleBee
 warning: unknown enum constant Tag.Any
   reason: class file for threadchecker.Tag not found
 warning: unknown enum constant Tag.Any
-warning: unknown enum constant Tag.Any
-warning: unknown enum constant Tag.Any
-1 error
-4 warnings
+Standard Doclet version 11.0.10
+Building tree for all the packages and classes...
+Generating C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\doc\Pumpkin.html...
+Generating C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\doc\package-summary.html...
+Generating C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\doc\allclasses.html...
+Generating C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\doc\allclasses.html...
+Generating C:\Users\kali2\Documents\GitHub\hungry-animal-KomalAli05\doc\index.html...
+2 warnings

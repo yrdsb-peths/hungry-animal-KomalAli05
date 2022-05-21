@@ -17,7 +17,6 @@ public class Pumpkin extends Actor
         int y = getY() + speed;
         setLocation(x, y);
         
-        .scale(pumpkin.getWidth() - 100)
         //Get rid of apple when it's on the bottom and put "Game Over!" on screen
         
         MyWorld world = (MyWorld) getWorld();
@@ -25,6 +24,7 @@ public class Pumpkin extends Actor
         {
             world.gameOver();
             world.removeObject(this);
+            Pumpkin.scale(Pumpkin.getWidth() - 100, Pumpkin.getHeight() - 100);
         }
     }
     
