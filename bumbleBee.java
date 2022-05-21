@@ -23,13 +23,13 @@ public class BumbleBee extends Actor
     {
         for(int i = 0; i < idleRight.length; i++)
         {
-            idleRight[i] = new GreenfootImage("images/BumbleBee/BumbleBee0" + i + ".png");
+            idleRight[i] = new GreenfootImage("images/BumbleBee.png/BumbleBee" + i + ".png");
             idleRight[i].scale(150, 100);
         }
         
         for(int i = 0; i < idleLeft.length; i++)
         {
-            idleLeft[i] = new GreenfootImage("images/BumbleBee.png" + i + ".png");
+            idleLeft[i] = new GreenfootImage("images/BumbleBee.png/BumbleBee" + i + ".png");
             idleLeft[i].mirrorHorizontally();
             idleLeft[i].scale(150, 100);
         }
