@@ -9,7 +9,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Pumpkin extends Actor
 {
     int speed = 1;
-    Pumpkin pumpkin = new Pumpkin();
     public void act()
     {
         // Pumpkin falls 
@@ -24,7 +23,7 @@ public class Pumpkin extends Actor
         {
             world.gameOver();
             world.removeObject(this);
-            pumpkin.scale(pumpkin.getWidth() - 100, pumpkin.getHeight() - 100);
+            
         }
     }
     
