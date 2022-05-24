@@ -2,7 +2,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * Write a description of class bumbleBee here.
- * Bumblebee go zoom 
+ * Controls the BumbleBee character, it's trying to "eat" the pumpkin 
  * 
  * @Komal (your name) 
  * @May 2022 (a version number or a date)
