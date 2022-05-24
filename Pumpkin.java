@@ -11,7 +11,9 @@ public class Pumpkin extends Actor
     int speed = 1;
     public Pumpkin()
     {
-        idle[i].scale(50, 50);
+        GreenfootImage image = getImage();
+        image.scale(50, 50);
+        setImage(image);
     }
     public void act()
     {
