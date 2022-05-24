@@ -24,13 +24,13 @@ public class BumbleBee extends Actor
         for(int i = 0; i < idleRight.length; i++)
         {
             idleRight[i] = new GreenfootImage("images/BumbleBee.png/BumbleBee" + i + ".png");
+            idleRight[i].mirrorHorizontally();
             idleRight[i].scale(150, 100);
         }
         
         for(int i = 0; i < idleLeft.length; i++)
         {
             idleLeft[i] = new GreenfootImage("images/BumbleBee.png/BumbleBee" + i + ".png");
-            idleLeft[i].mirrorHorizontally();
             idleLeft[i].scale(150, 100);
         }
         
@@ -40,9 +40,6 @@ public class BumbleBee extends Actor
         setImage(idleRight[0]);
     }
     
-    /**
-     * Animate the bee looking up and down
-     */
     int imageIndex = 0;
     public void animateBee()
     {

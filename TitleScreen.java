@@ -45,15 +45,15 @@ public class TitleScreen extends World
         BumbleBee bumbleBee = new BumbleBee();
         addObject(bumbleBee,306,317);
         
-        Label label = new Label("Welcome to the Hungry Bumblebee game!", 35);
+        Label label = new Label("Welcome to the Hungry Bumblebee game!", 37);
         addObject(label,291,41);
         label.setLocation(302,51);
         
-        Label label2 = new Label("Hit enter to start!", 40);
+        Label label2 = new Label("Hit enter to start!", 33);
         addObject(label2,294,165);
         label2.setLocation(303,134);
         
-        Label label3 = new Label("Use left and right arrow keys to play :)", 25);
+        Label label3 = new Label("Use left and right arrow keys to play :)", 30);
         addObject(label3,303,209);
         label3.setLocation(309,206);
     }

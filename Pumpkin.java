@@ -12,7 +12,7 @@ public class Pumpkin extends Actor
     public Pumpkin()
     {
         GreenfootImage image = getImage();
-        image.scale(50, 50);
+        image.scale(70, 70);
         setImage(image);
     }
     public void act()
