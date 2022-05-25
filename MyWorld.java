@@ -36,7 +36,7 @@ public class MyWorld extends World
      */
     public void gameOver()
     {
-        Label gameOver = new Label("Game Over!", 100);
+        Label gameOver = new Label("Game Over :(", 100);
         addObject(gameOver, 300, 200);
     }
 
@@ -48,7 +48,7 @@ public class MyWorld extends World
         startScore++;
         score.setValue(startScore);
         
-        if(startScore % 7 == 0)
+        if(startScore % 3 == 0)
         {
             level += 1;
         }
